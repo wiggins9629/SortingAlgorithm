@@ -9,6 +9,10 @@ import com.wiggins.sortingalgorithm.utils.SortingUtil;
 import com.wiggins.sortingalgorithm.utils.UIUtils;
 import com.wiggins.sortingalgorithm.widget.TitleView;
 
+/**
+ * @Description 常用的排序算法
+ * @Author 一花一世界
+ */
 public class MainActivity extends BaseActivity implements View.OnClickListener {
 
     private TitleView titleView;
