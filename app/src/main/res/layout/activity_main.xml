@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_bg"
+    android:orientation="vertical">
+
+    <com.wiggins.sortingalgorithm.widget.TitleView
+        android:id="@+id/titleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="3dp"
+        android:padding="@dimen/padding_normal"
+        android:textColor="@color/red"
+        android:textSize="@dimen/font_small" />
+
+    <View style="@style/spaceLine" />
+
+    <TextView
+        android:id="@+id/tv_insert"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_normal"
+        android:gravity="center"
+        android:text="@string/direct_insertion_sort"
+        android:textColor="@color/blue"
+        android:textSize="@dimen/font_small" />
+
+    <View style="@style/spaceLine" />
+
+    <TextView
+        android:id="@+id/tv_hill"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_normal"
+        android:gravity="center"
+        android:text="@string/hill_sort"
+        android:textColor="@color/blue"
+        android:textSize="@dimen/font_small" />
+
+    <View style="@style/spaceLine" />
+
+    <TextView
+        android:id="@+id/tv_simple"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_normal"
+        android:gravity="center"
+        android:text="@string/simple_sorting"
+        android:textColor="@color/blue"
+        android:textSize="@dimen/font_small" />
+
+    <View style="@style/spaceLine" />
+
+    <TextView
+        android:id="@+id/tv_heap"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_normal"
+        android:gravity="center"
+        android:text="@string/heap_sort"
+        android:textColor="@color/blue"
+        android:textSize="@dimen/font_small" />
+
+    <View style="@style/spaceLine" />
+
+    <TextView
+        android:id="@+id/tv_bubble"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_normal"
+        android:gravity="center"
+        android:text="@string/bubble_sort"
+        android:textColor="@color/blue"
+        android:textSize="@dimen/font_small" />
+
+    <View style="@style/spaceLine" />
+
+    <TextView
+        android:id="@+id/tv_quick"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_normal"
+        android:gravity="center"
+        android:text="@string/quick_sort"
+        android:textColor="@color/blue"
+        android:textSize="@dimen/font_small" />
+
+    <View style="@style/spaceLine" />
+
+    <TextView
+        android:id="@+id/tv_merge"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_normal"
+        android:gravity="center"
+        android:text="@string/merge_sort"
+        android:textColor="@color/blue"
+        android:textSize="@dimen/font_small" />
+
+    <View style="@style/spaceLine" />
+
+    <TextView
+        android:id="@+id/tv_base"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_normal"
+        android:gravity="center"
+        android:text="@string/base_sort"
+        android:textColor="@color/blue"
+        android:textSize="@dimen/font_small" />
+
+    <View style="@style/spaceLine" />
+</LinearLayout>
